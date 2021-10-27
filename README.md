@@ -1,6 +1,6 @@
 # filmeflix
 Protótipo de site sobre filmes.
 DESENVOLVEDORES:
-Felipe Redivo Fragoso
+Felipe Redivo Fragoso,
+Arthur Vieira Bruske e
 Felipe Hlatki Vieira
-Arthur Vieira Bruske
