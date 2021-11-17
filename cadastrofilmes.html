@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
-    <title>Esqueci a senha</title>
+    <title>Cadastro</title>
   </head>
   <body class="bg-dark">
 
@@ -31,9 +31,9 @@
               <a class="nav-link" href="2.html">Créditos</a>
               <a class="nav-link" href="descricao.html">Descrição</a>
               <a class="nav-link" href="perguntas.html">Perguntas Frequentes</a>
-              <a class="nav-link" href="cadastrofilmes.html">Cadastro de filmes</a>
               <a class="nav-link" href="login.html" style="position: absolute; right: 20px;">Login</a>
               <a class="nav-link" href="cadastro.html" style="position: absolute; right: 80px;">Cadastro</a>
+              <a class="nav-link active" aria-current="page" href="cadastrofilmes.html"">Cadastro de filmes</a>
               <h1 style="position: absolute; right: 75px; color: #888B8D; font-size: medium; top: 40px;">|</h1>
             </div>
           </div>
@@ -46,20 +46,26 @@
         <form class="form" action="" style="background-color: rgb(146, 146, 146); width: 445px; height: 540px; text-align: center; margin: 0 auto; padding: 30px;">
             <div>
                 <hr>
-                <h2>Esqueci a senha</h2>
+                <h2>Cadastro</h2>
                 <br>
                 <hr>
-                <h6>Coloque seu e-mail e enviaremos instruções de como redefinir sua senha.</h6>
+                <label for="email" style="float: left; width: auto;">Nome do filme</label>
                 <br>
-                <hr>
-                <label for="email" style="float: left; width: auto;">E-mail</label>
-                <br>
-                <input type="email" name="email" id="email" style="float: left; width: auto;">
+                <input type="text" name="email" id="email" style="float: left; width: 370px;">
                 <br>
                 <br>
                 <hr>
+                <label for="password" style="float: left; width: auto;">Nome da produtora</label>
+                <br>
+                <input type="text" name="password" id="password" style="float: left; width: 370px;">
+                <br>
+                <br>
+                <hr>
+                <a href="login.html" style="float: left; text-decoration: none;">Já tem uma conta? Faça o Login</a>
+                <a href="senha.html" style="float: right; text-decoration: none;">Esqueceu a senha?</a>
+                <br>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button type="button" class="btn btn-success btn-lg" style="margin-top: 100px;">Enviar</button>
+                <button type="button" class="btn btn-success btn-lg" style="margin-top: 10px;">Cadastrar</button>
                 </div>
             </div>
         </form>
