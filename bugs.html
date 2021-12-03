@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" style="box-sizing: border-box;">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
 
     <header>
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="inicio.html">
               <img id="logo" src="img/logo.png" style="width: 70px;">
@@ -28,11 +28,11 @@
             <div class="navbar-nav">
               <a class="nav-link" href="inicio.html">Início</a>
               <a class="nav-link" href="filmes.html">Filmes</a>
-              <a class="nav-link active" aria-current="page" href="2.html">Créditos</a>
+              <a class="nav-link" href="2.html">Créditos</a>
               <a class="nav-link" href="descricao.html">Descrição</a>
               <a class="nav-link" href="perguntas.html">Perguntas Frequentes</a>
               <a class="nav-link" href="cadastrofilmes.html">Cadastro de filmes</a>
-              <a class="nav-link" href="bugs.html">Reporte um Bug</a>
+              <a class="nav-link active" aria-current="page" href="bugs.html">Reporte um Bug</a>
               <a class="nav-link" href="login.html" style="position: absolute; right: 20px;">Login</a>
               <a class="nav-link" href="cadastro.html" style="position: absolute; right: 80px;">Cadastro</a>
               <h1 style="position: absolute; right: 75px; color: #888B8D; font-size: medium; top: 40px;">|</h1>
@@ -50,30 +50,54 @@
           <div class="col">
 
             <div style="color: rgb(207, 61, 61);"> 
-              <h1>Créditos</h1>
+              <h1>Reporte um bug</h1>
             </div> 
             <br>
             <br>
-            <div class="container">
-                <div class="row">
-                  <div class="col-sm" style="color: rgb(168, 168, 168);">
-                    <h5>Arthur Vieira Bruske</h5>
-                    <p>Resposável por desenvolver as páginas, os estilos, Logo e pesquisar alguns filmes.</p>
-                    <p><em>Contato: arthur.bruske@alunos.sc.senac.br</em></p>
-                  </div>
-                  <div class="col-sm" style="color: rgb(168, 168, 168);">
-                    <h5>Felipe Hlatki Vieira</h5>
-                    <p>Responsável por desenvolver os estilos e arrumar alguns erros.</p>
-                    <p><em>Contato: felipe.vieira@alunos.sc.senac.br</em></p>
-                  </div>
-                  <div class="col-sm" style="color: rgb(168, 168, 168);">
-                    <h5>Felipe Redivo Fragoso</h5>
-                    <p>Responsável por escolher os filmes, fazer o esboço das páginas e corrigir os pequenos erros.</p>
-                    <p><em>Contato: felipe.fragoso@alunos.sc.senac.br</em></p>
-                  </div>
-                </div>
-              </div>
+            <div class="container" style="color: rgb(168, 168, 168); right: 24px; position: relative;">
+                <h2>Contate o atendimento ao cliente FilmeFlix</h2>
+                <p>Entrar em contato com a FilmeFlix é mais fácil do que você imagina. Pelo nosso app, <br> você pode nos contatar por chat e buscar ajuda por lá. Achou algum bug? fale para <br> nós por lá ou preencha esse formulário ao lado. Dependendo da severidade do pro-<br>blema, você pode até ganhar alguns meses grátis!</p>
+                <br>
+                <h4>Baixe nosso app!</h4>
+                <img src="img/google.png" style="width: 200px; position: relative; right: 13px;">
+                <br>
+                <img src="img/appstore.png" style="width: 150px;">
             </div>
+            </div>
+            <div class="container" style="position: relative; left: 400px; bottom: 400px;">
+              <section class="main">
+                <form class="form" action="" style="width: 445px; height: 540px; text-align: center; margin: 0 auto; padding: 30px; border-left: white 1px solid;">
+                    <div style="margin-left: 120px">
+                        <hr>
+                        <br>
+                        <h2>Bug report</h2>
+                        <br>
+                        <hr>
+                        <label for="email" style="float: left; width: auto;">Link da página</label>
+                        <br>
+                        <input type="text" name="email" id="email" style="float: left; width: 260px;">
+                        <br>
+                        <br>
+                        <hr>
+                        <label for="password" style="float: left; width: auto;">Notas sobre o problema:</label>
+                        <br>
+                        <input type="text" name="password" id="password" style="float: left; width: 260px;">
+                        <br>
+                        <br>
+                        <hr>
+                        <label for="img">Anexe uma imagem:</label>
+                        <br>
+                        <br>
+                        <input type="file" name="img" style="right: 30px; position: relative;">
+                        <br>
+                        <br>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-success btn-lg" style="margin-top: 10px; position: relative; right: 90px;">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+          </div>
       </div>
 
     </div>
@@ -91,5 +115,4 @@
     -->
     <footer>
   </body>
-
 </html>
