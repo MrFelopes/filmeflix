@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#pesquisa{
+    width: 50%;
+    margin: auto;
+}
+
+#pesquisa input, button{
+    width: 75%;
+    border: 2px solid white;
+    border-right: 0px;
+    font-size: 18px;
+    padding: 12px;
+    background: transparent;
+    color: white;
+}
+
+#pesquisa button{
+    width: 25%;
+    background: #eee;
+    color: black;
+    float: right;
+    border-left: 0px;
+}
+
+#pesquisa button:hover{
+    opacity: .8;
+}
+
+#pesquisa input:hover{
+    opacity: .8;
+}
